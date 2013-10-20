@@ -1,0 +1,1 @@
+p [].methods.grep /^re/
