@@ -1,3 +1,7 @@
+# coding:utf-8
+# メタプログラミングruby
+# P.25
+#
 class Entity
   attr_reader :table, :ident
 
@@ -41,6 +45,6 @@ class Movie < Entity
 end
 
 movie = Movie.new(1)
-movie.title="$BGn;N$N0[>o$J0&>p(B"
-movie.director = "$B%9%?%s%j!<!&%-%e!<%V%j%C%/(B"
+movie.title="博士の異常な愛情"
+movie.director = "スタンリー・キューブリック"
 
